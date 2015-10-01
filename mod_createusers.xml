@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Create Users</name>
+    <author>rogcg</author>
+    <version>1.0.0</version>
+    <description>A module that registers users.</description>
+    <files>
+        <filename>mod_createusers.xml</filename>
+        <filename module="mod_createusers">mod_createusers.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>
